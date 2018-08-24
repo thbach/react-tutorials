@@ -1,0 +1,16 @@
+{
+  "extends": ["react", "prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "bracketSpacing": false,
+        "jsxBracketSameLine": true,
+        "parser": "flow"
+      }
+    ]
+  },
+  "plugins": ["prettier"]
+}
